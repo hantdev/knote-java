@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: 10.10.2.200:30500/knote-java:latest
+          image: 10.10.2.200:30500/hant/knote-java:latest
           ports:
             - containerPort: 8080
           env:
